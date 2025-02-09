@@ -1,5 +1,5 @@
 # Проект Git-Star
-
+# Проект на Netlify  https://magenta-figolla-9da0e7.netlify.app/
 ## Запуск приложения с использованием Docker
 
 Для того чтобы запустить приложение в Docker, выполните следующие шаги:
