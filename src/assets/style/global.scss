@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  white-space: normal;
+}
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  outline: none;
+
+}
+
+textarea {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  box-shadow: none;
+
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  outline: none;
+}
+
+
+body {
+  background-color: var(--grey-100);
+  width: 100%;
+  box-sizing: inherit;
+  position: relative;
+  min-height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  background: var(--grey-100);
+  overflow-x: auto;
+  letter-spacing: 0;
+  font-family: 'Arial', sans-serif;
+  color: var(--black-400);
+
+}
+
+// Layout Containers
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1106px;
+  margin: 0 auto;
+
+
+}
+
+.main {
+  flex: 1;
+  padding-top: 88px;
+}
+
+
